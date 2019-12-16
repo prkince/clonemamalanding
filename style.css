@@ -1,4 +1,5 @@
 @import 'lib/banner.css';
+@import 'lib/card.css';
 
 body {
     margin: 0;
@@ -49,7 +50,7 @@ form {
 }
 
 .footer {
-    background: #F4F4F4;
+    background-color: #F2F9FF;
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;

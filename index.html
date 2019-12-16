@@ -32,8 +32,8 @@
         <div>
           <form action="/users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="CrDrUcrDJ1xNnmN9jJN1qiAijt3tK/iC9y/2zdx6taHD6p+erzW5LbFdlppn/PNazCd1Yq11y587h9X5LEZtWA==" />
             <div class="p-3 form-group row flex-wrap mb-0">
-              <input placeholder="Votre Adresse Email" class="mb-2 mr-4 form-control-lg col-md-4 bg-transparent text-white  border" type="text" name="user[email]" id="user_email" />
-              <input name="commit" value="Ça m&#39;intéresse &#9760" class="mb-2 btn btn-flat btn-lg col-xs-2" data-disable-with="Ça m&#39;intéresse &#9760" />
+              <input placeholder="Votre Adresse Email" class="mb-2 mr-4 form-control-lg col-md-4 bg-transparent text-white border" type="text" name="user[email]" id="user_email" />
+              <input name="commit" onClick=alert("&#9760") value="Ça m&#39;intéresse &#9760" class="mb-2 btn btn-outline-light btn-lg col-xs-2" data-disable-with="Ça m&#39;intéresse &#9760" />
             </div>
           </form>
         </div>
@@ -41,41 +41,41 @@
       </div>
     </div>
 
-    <div class="wrapper d-flex align-items-center mt-5 mb-5">
+    <div class="d-flex align-items-center" style="background-color: #F2F9FF">
 
-      <div class="container flex-column">
+      <div class="container flex-column mt-5 mb-5">
 
-        <div class="mb-2 rounded">
-          <h2 class="p-2 display-4" style="color:#FF3463;"><strong>Faites vos courses sans même y penser</strong></h2>
+        <div class="center-card">
+          <h2><span id="banner-typed-text-4" ></span> </h2>
         </div>
 
         <div class=" card-deck p-3 mb-5">
           <div class="card">
             <img src="https://res.cloudinary.com/dnrmmg7rh/image/upload/v1574253498/steve-johnson-rNYCrcjUnOA-unsplash-min_b2rzps.jpg" class="card-img-top" alt="listes de courses">
             <div class="card-body">
-              <h5 class="card-title" style="color:#FF3463;">Retrouvez vos listes de courses</h5>
+              <h5 class="card-title">Retrouvez vos listes de courses</h5>
               <p class="card-text">Seul ou à plusieurs, vous gérez et partagez vos listes sans effort.</p>
             </div>
           </div>
           <div class="card">
             <img src="https://res.cloudinary.com/dnrmmg7rh/image/upload/v1574253497/s-o-c-i-a-l-c-u-t-SLuOk-mDh0c-unsplash-min_wk4m5x.jpg" class="card-img-top" alt="inspiration recettes">
             <div class="card-body">
-              <h5 class="card-title" style="color:#FF3463;">Inspirez vous des meilleures recettes</h5>
+              <h5 class="card-title">Inspirez vous des meilleures recettes</h5>
               <p class="card-text">Vous ne savez pas quoi faire à manger ? CloneMama trouve la bonne idée.</p>
             </div>
           </div>
           <div class="card">
             <img src="https://res.cloudinary.com/dnrmmg7rh/image/upload/v1574253497/7shifts-h4F3S4rJW14-unsplash-min_xsjyse.jpg" class="card-img-top" alt="comparateur de prix">
             <div class="card-body">
-              <h5 class="card-title" style="color:#FF3463;">Comparez les produits et les prix</h5>
+              <h5 class="card-title">Comparez les produits et les prix</h5>
               <p class="card-text">Quels produits choisir ? Qui est le moins cher ? Quels sont les bons plans ?</p>
             </div>
           </div>
           <div class="card">
             <img src="https://res.cloudinary.com/dnrmmg7rh/image/upload/v1574253500/freestocks-org-mw6Onwg4frY-unsplash-min_aotltw.jpg" class="card-img-top" alt="paniers de courses">
             <div class="card-body">
-              <h5 class="card-title" style="color:#FF3463;">Choisissez votre panier de courses</h5>
-              <p class="card-text">Ne perdez plus de temps en rayon, ClubMama sélectionne les produits qui vous plaisent.</p>
+              <h5 class="card-title">Choisissez votre panier de courses</h5>
+              <p class="card-text">Ne perdez plus de temps en rayon, CloneMama sélectionne les produits qui vous plaisent.</p>
             </div>
           </div>
         </div>
@@ -84,11 +84,11 @@
 
     </div>
 
-    <div class="wrapper" style="background-color: #FF3463;">
+    <div class="wrapper" style="background-color: #7EB8F3;">
       <div class="container d-flex flex-column">
 
-        <div class="mb-2 mt-5 rounded">
-          <h2 class="p-2 display-4 text-white"><strong>Les meilleurs prix, les meilleurs produits</strong></h2>
+        <div class="center-card mt-5">
+          <h2 style="color: white"><span id="banner-typed-text-5" ></span> </h2>
         </div>
 
         <div class=" card-deck p-3 mb-5">
@@ -118,24 +118,25 @@
       </div>
     </div>
 
-    <div class="wrapper" style="background-color: #1BCB7F;">
+    <div class="wrapper" style="background-color: #064D89;">
       <div class="container d-flex flex-column">
 
-        <div class="mb-2 mt-5 rounded">
-          <h2 class="p-2 display-4 text-white"><strong>Les meilleures idées repas</strong></h2>
+        <div class="center-card mt-5 mb-5">
+          <h2 style="color: white"><span id="banner-typed-text-6" ></span> </h2>
         </div>
 
         <div class="row mb-5">
           <div class="col-sm-6 p-3">
             <div class="card">
-              <div class="card-header">
-                <h5 >Bibimbap aux légumes grillés</h5>
+              <div class="card-header" style="text-align: center">
+                <h5>Bibimbap aux légumes grillés</h5>
               </div>
-              <div class="card-body">
+              <div class="card-body" style="background-color: #F2F9FF">
                   <p>- 240g de riz basmati </p>
                   <p>– 4 œufs </p>
                   <p>– 1 douzaine de bouquets de chou-fleur </p>
                   <p>– 1 douzaine de bouquets de brocolis </p>
+                  <p>&nbsp&nbsp ...</p>
                   <p>- 1 petit saladier de feuilles de kale hachées </p>
                   <p>– 1 petit bol de chou rouge émincé finement </p>
                   <p>– 1 oignon nouveau </p>
@@ -145,25 +146,25 @@
                   <p>– 4,5cl d&#39;huile neutre </p>
                   <p>– des graines de sésame dorées</p>
               </div>
-              <div class="card-body">
-                <a target="_blank" class="btn btn-flat" href="https://doriannn.blogspot.com/2018/02/mon-bibimbap-aux-legumes-grilles-parce.html">Voir la recette</a>
+              <div class="card-body" style="background-color: #F2F9FF">
+                <a target="_blank" class="btn btn-outline-light" href="https://doriannn.blogspot.com/2018/02/mon-bibimbap-aux-legumes-grilles-parce.html">Voir la recette</a>
               </div>
             </div>
           </div>
           <div class="col-sm-6 p-3">
             <div class="card">
-              <div class="card-header">
-                <h5 >Rutabagas au lard et pommes de terre</h5>
+              <div class="card-header" style="text-align: center">
+                <h5>Rutabagas au lard et pommes de terre</h5>
               </div>
-              <div class="card-body">
-                  <p>900g de rutabaga </p>
-                  <p>800g de pomme de terre </p>
-                  <p>3 poireaux </p>
-                  <p>200g de lard fumé </p>
-                  <p>Cornichon </p>
+              <div class="card-body" style="background-color: #F2F9FF">
+                  <p>- 900g de rutabaga </p>
+                  <p>- 800g de pomme de terre </p>
+                  <p>- 3 poireaux </p>
+                  <p>- 200g de lard fumé </p>
+                  <p>- Cornichon </p>
               </div>
-              <div class="card-body">
-                <a target="_blank" class="btn btn-flat" href="https://www.marmiton.org/recettes/recette_rutabagas-au-lard-et-pommes-de-terre_33477.aspx">Voir la recette</a>
+              <div class="card-body" style="background-color: #F2F9FF">
+                <a target="_blank" class="btn btn-outline-light" href="https://www.marmiton.org/recettes/recette_rutabagas-au-lard-et-pommes-de-terre_33477.aspx">Voir la recette</a>
               </div>
             </div>
           </div>
@@ -183,7 +184,7 @@
           <form action="/users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="D2wJ7pdvb6A3iVjsyM69utUoluuCHoBUdXX933UrjDzGNn0h8pnx0ctKrQsjoTtKOS1tVMJAs0m53d7rhRdUxQ==" />
             <div class="p-3 form-group row flex-wrap">
               <input placeholder="Votre Adresse Email" class="mb-2 mr-4 form-control-lg col-md-4 bg-transparent text-white  border" type="text" name="user[email]" id="user_email" />
-              <input name="commit" value="Ça m&#39;intéresse &#9760" class="mb-2 btn btn-flat btn-lg col-xs-2" data-disable-with="Ça m&#39;intéresse &#9760" />
+              <input name="commit" onClick=alert("&#9760") value="Ça m&#39;intéresse &#9760" class="mb-2 btn btn-outline-light btn-lg col-xs-2" data-disable-with="Ça m&#39;intéresse &#9760" />
             </div>
           </form>
         </div>
@@ -201,32 +202,7 @@
     </div>
 
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-
-  <script>
-    if (document.getElementById('banner-typed-text-1')) {
-      new Typed('#banner-typed-text-1', {
-        strings: ["Bienvenue chez CloneMama"],
-        typeSpeed: 30,
-        loop: false
-      });
-    }
-
-    if (document.getElementById('banner-typed-text-2')) {
-      new Typed('#banner-typed-text-2', {
-        strings: ["Mangez bien...", "Et pas cher !"],
-        typeSpeed: 40,
-        loop: true
-      });
-    }
-
-    if (document.getElementById('banner-typed-text-3')) {
-      new Typed('#banner-typed-text-3', {
-        strings: ["Mangez bien...", "Et pas cher !"],
-        typeSpeed: 40,
-        loop: true
-      });
-    }
-      </script>
+  <script src="lib/index.js"></script>
 
   </body>
 </html>
