@@ -1,7 +1,10 @@
 {
-  "requires": true,
-  "lockfileVersion": 1,
+  "name": "CloneMama",
+  "private": true,
   "dependencies": {
     "typed.js": "^2.0.11"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0"
   }
 }
